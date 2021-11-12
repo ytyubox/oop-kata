@@ -21,12 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_28 /* Fabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Fabric.swift */; };
-		OBJ_29 /* LaundryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LaundryElement.swift */; };
-		OBJ_30 /* WashingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* WashingController.swift */; };
-		OBJ_31 /* WashingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* WashingMachine.swift */; };
-		OBJ_32 /* WashingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* WashingService.swift */; };
-		OBJ_33 /* oop_kata.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* oop_kata.swift */; };
+		D23D05BB273E06DF00B53C42 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05BA273E06DF00B53C42 /* Helpers.swift */; };
+		D23D05C7273E0A8000B53C42 /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05BC273E0A8000B53C42 /* Cleaner.swift */; };
+		D23D05C8273E0A8000B53C42 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05BD273E0A8000B53C42 /* Basket.swift */; };
+		D23D05C9273E0A8000B53C42 /* Programme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05BE273E0A8000B53C42 /* Programme.swift */; };
+		D23D05CA273E0A8000B53C42 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05BF273E0A8000B53C42 /* Temperature.swift */; };
+		D23D05CB273E0A8000B53C42 /* oop_kata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C0273E0A8000B53C42 /* oop_kata.swift */; };
+		D23D05CC273E0A8000B53C42 /* WashingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C1273E0A8000B53C42 /* WashingController.swift */; };
+		D23D05CD273E0A8000B53C42 /* LaundryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C2273E0A8000B53C42 /* LaundryElement.swift */; };
+		D23D05CE273E0A8000B53C42 /* Laundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C3273E0A8000B53C42 /* Laundry.swift */; };
+		D23D05CF273E0A8000B53C42 /* Fabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C4273E0A8000B53C42 /* Fabric.swift */; };
+		D23D05D0273E0A8000B53C42 /* SpinSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C5273E0A8000B53C42 /* SpinSpeed.swift */; };
+		D23D05D1273E0A8000B53C42 /* WashingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D05C6273E0A8000B53C42 /* WashingMachine.swift */; };
 		OBJ_51 /* oop_kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* oop_kataTests.swift */; };
 		OBJ_53 /* oop_kata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "oop-kata::oop-kata::Product" /* oop_kata.framework */; };
 /* End PBXBuildFile section */
@@ -49,15 +55,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_10 /* LaundryElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryElement.swift; sourceTree = "<group>"; };
-		OBJ_11 /* WashingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingController.swift; sourceTree = "<group>"; };
-		OBJ_12 /* WashingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMachine.swift; sourceTree = "<group>"; };
-		OBJ_13 /* WashingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingService.swift; sourceTree = "<group>"; };
-		OBJ_14 /* oop_kata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_kata.swift; sourceTree = "<group>"; };
+		D23D05BA273E06DF00B53C42 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D23D05BC273E0A8000B53C42 /* Cleaner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cleaner.swift; sourceTree = "<group>"; };
+		D23D05BD273E0A8000B53C42 /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		D23D05BE273E0A8000B53C42 /* Programme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Programme.swift; sourceTree = "<group>"; };
+		D23D05BF273E0A8000B53C42 /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		D23D05C0273E0A8000B53C42 /* oop_kata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oop_kata.swift; sourceTree = "<group>"; };
+		D23D05C1273E0A8000B53C42 /* WashingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashingController.swift; sourceTree = "<group>"; };
+		D23D05C2273E0A8000B53C42 /* LaundryElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryElement.swift; sourceTree = "<group>"; };
+		D23D05C3273E0A8000B53C42 /* Laundry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laundry.swift; sourceTree = "<group>"; };
+		D23D05C4273E0A8000B53C42 /* Fabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fabric.swift; sourceTree = "<group>"; };
+		D23D05C5273E0A8000B53C42 /* SpinSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinSpeed.swift; sourceTree = "<group>"; };
+		D23D05C6273E0A8000B53C42 /* WashingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashingMachine.swift; sourceTree = "<group>"; };
 		OBJ_17 /* oop_kataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_kataTests.swift; sourceTree = "<group>"; };
 		OBJ_21 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_9 /* Fabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fabric.swift; sourceTree = "<group>"; };
 		"oop-kata::oop-kata::Product" /* oop_kata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = oop_kata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"oop-kata::oop-kataTests::Product" /* oop_kataTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = oop_kataTests.xctest; path = "oop-kataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D23D05B9273E06D800B53C42 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D23D05BA273E06DF00B53C42 /* Helpers.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		OBJ_15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +127,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_7 /* Sources */,
@@ -116,7 +136,6 @@
 				OBJ_21 /* LICENSE */,
 				OBJ_22 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -130,12 +149,18 @@
 		OBJ_8 /* oop-kata */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Fabric.swift */,
-				OBJ_10 /* LaundryElement.swift */,
-				OBJ_11 /* WashingController.swift */,
-				OBJ_12 /* WashingMachine.swift */,
-				OBJ_13 /* WashingService.swift */,
-				OBJ_14 /* oop_kata.swift */,
+				D23D05BD273E0A8000B53C42 /* Basket.swift */,
+				D23D05BC273E0A8000B53C42 /* Cleaner.swift */,
+				D23D05C4273E0A8000B53C42 /* Fabric.swift */,
+				D23D05C3273E0A8000B53C42 /* Laundry.swift */,
+				D23D05C2273E0A8000B53C42 /* LaundryElement.swift */,
+				D23D05C0273E0A8000B53C42 /* oop_kata.swift */,
+				D23D05BE273E0A8000B53C42 /* Programme.swift */,
+				D23D05C5273E0A8000B53C42 /* SpinSpeed.swift */,
+				D23D05BF273E0A8000B53C42 /* Temperature.swift */,
+				D23D05C1273E0A8000B53C42 /* WashingController.swift */,
+				D23D05C6273E0A8000B53C42 /* WashingMachine.swift */,
+				D23D05B9273E06D800B53C42 /* Helper */,
 			);
 			name = "oop-kata";
 			path = "Sources/oop-kata";
@@ -207,7 +232,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,12 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_28 /* Fabric.swift in Sources */,
-				OBJ_29 /* LaundryElement.swift in Sources */,
-				OBJ_30 /* WashingController.swift in Sources */,
-				OBJ_31 /* WashingMachine.swift in Sources */,
-				OBJ_32 /* WashingService.swift in Sources */,
-				OBJ_33 /* oop_kata.swift in Sources */,
+				D23D05CD273E0A8000B53C42 /* LaundryElement.swift in Sources */,
+				D23D05C9273E0A8000B53C42 /* Programme.swift in Sources */,
+				D23D05CF273E0A8000B53C42 /* Fabric.swift in Sources */,
+				D23D05CE273E0A8000B53C42 /* Laundry.swift in Sources */,
+				D23D05CC273E0A8000B53C42 /* WashingController.swift in Sources */,
+				D23D05D1273E0A8000B53C42 /* WashingMachine.swift in Sources */,
+				D23D05C8273E0A8000B53C42 /* Basket.swift in Sources */,
+				D23D05C7273E0A8000B53C42 /* Cleaner.swift in Sources */,
+				D23D05CB273E0A8000B53C42 /* oop_kata.swift in Sources */,
+				D23D05CA273E0A8000B53C42 /* Temperature.swift in Sources */,
+				D23D05D0273E0A8000B53C42 /* SpinSpeed.swift in Sources */,
+				D23D05BB273E06DF00B53C42 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
